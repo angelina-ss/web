@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Angelina Sanjaya</title>
+	<link rel="icon" type="image/x-icon" href="images/favicon.ico">
+	<!-- CSS only -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<!-- Google Fonts -->
+	<style>
+	@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+	</style>
+</head>
+<body>
+	<!-- Navbar -->
+	<nav class="navbar bg-light sticky-top shadow bg-body" id="navbar-example2">
+	  <div class="container-fluid">
+	    <a class="navbar-brand" href="javascript:getRequestDomain();"><i class="feather-align-center" data-feather="moon"></i><i class="feather-align-center" data-feather="sun"></i><span></span> Hello World!</a>
+	    
+	    <!-- Scrollspy -->
+	    <ul class="nav nav-pills">
+	    <li class="nav-item me-3">
+	      <a class="nav-link link-secondary" href="#scrollspyHeading1">UI Design</a>
+	    </li>
+	    <li class="nav-item me-3">
+	      <a class="nav-link link-secondary" href="#scrollspyHeading2">Website</a>
+	    </li>
+	    <li class="nav-item me-3">
+	      <a class="nav-link link-secondary" href="#scrollspyHeading3">Other</a>
+	    </li>
+	    
+	    <!-- Offcanvas -->
+	    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+	      <i data-feather="menu"></i>
+	    </button>
+	    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+	      <div class="offcanvas-header">
+	        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+	        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+	      </div>
+	      <div class="offcanvas-body">
+	        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+	          <li class="nav-item">
+	            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+	          </li>
+		          <!-- <li class="nav-item">
+		            <a class="nav-link" href="#">Work</a>
+		          </li> -->
+	          <li class="nav-item dropdown">
+	            <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+	              Avatar
+	              <i class="feather-16" data-feather="chevron-down"></i>
+	            </a>
+	            <ul class="dropdown-menu">
+	              <li><a class="dropdown-item" href="https://picrew.me/image_maker/1322863">☆ friend maker ★ | Picrew</a></li>
+	              <li><a class="dropdown-item" href="https://picrew.me/image_maker/1306309">Obscured Icon Maker | Picrew</a></li>
+	              <!-- <li>
+	                <hr class="dropdown-divider">
+	              </li>
+	              <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+	            </ul>
+	          </li>
+	        </ul>
+	        <!-- <form class="d-flex" role="search">
+	          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+	          <button class="btn btn-outline-dark" type="submit">Search</button>
+	        </form> -->
+	      </div>
+	    </div>
+	  </div>
+	</nav>
+
+	<div class="container mt-5 mb-3 pb-4 scrollspy-example" data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" tabindex="0">
+		<!-- Header -->
+		<div class="row pt-4 align-items-center">
+			<div class="col-lg-8">
+				<p><i class="feather-16" data-feather="terminal"></i> My name is Angelina. I'm a recent undergraduate of Information Systems from Tangerang, Banten.</p>
+				<div class="ms-4">
+					<p><i class="feather-16" data-feather="git-merge"></i> Database Specialist major</p>
+					<p><i class="feather-16" data-feather="git-merge"></i> Interested in IT support, troubleshooting, and graphic design</p>
+					<!-- Button trigger modal -->
+					<button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+					  Contact me <i class="feather-16" data-feather="link"></i>
+					</button>
+				</div>
+			</div>
+			<div class="col-lg-4">
+				<div class="row justify-content-end">
+					<img class="img-fluid w-75 rounded-circle" src="images/index-1.jpg">
+				</div>				
+			</div>
+			<!-- Modal -->
+			<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+			  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+			    <div class="modal-content">
+			      <div class="modal-header">
+			        <h5 class="modal-title" id="staticBackdropLabel">Find me here</h5>
+			        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			      </div>
+			      <div class="modal-body text-center mt-3">
+			        <p>
+			        	<a class="text-decoration-none" href="https://www.linkedin.com/in/angelina-s-24338b167/"><i class="feather-align-center" data-feather="linkedin"></i> Angelina Sanjaya</a>
+			        </p>
+			        <p>
+			        	<a class="text-decoration-none" href="mailto:angelinasanjayas@yahoo.com"><i class="feather-align-center" data-feather="at-sign"></i> Email me</a>
+			        </p>
+			      </div>
+			      <div class="modal-footer">
+			        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+			        <!-- <button type="button" class="btn btn-primary">Understood</button> -->
+			      </div>
+			    </div>
+			  </div>
+			</div>
+		</div>
+
+		<div class="row mt-5 mb-2 text-center text-muted">
+			<p>
+				<i data-feather="feather"></i>
+				<i data-feather="feather"></i>
+				<i data-feather="feather"></i>
+			</p>
+		</div>
+
+		<!-- Cards -->
+		<div class="row mt-2 mb-4" id="scrollspyHeading1">
+			<div class="card-group shadow p-3 mb-3 bg-body rounded">
+			  <div class="card ">
+			    <img src="images/card-1.png" class="card-img-top" alt="Web-based database application for Yayasan Srikandi Sejati">
+			    <div class="card-body">
+			      <h5 class="card-title">Web-based database app for YSS &nbsp;<span class="badge bg-secondary">2022</span></h5>
+			      <p class="card-text">I made a low fidelity prototype for my bachelor thesis' project. It is a web-based database application to manage the clients data of Yayasan Srikandi Sejati.</p>
+			      <div class="row align-items-center">
+			      	<div class="col">
+			      		<p class="card-text">
+				      	<small class="text-muted"><i data-feather="layout"></i></small>
+				      	<small class="text-muted"><i data-feather="figma"></i></small>
+				      </p>
+			      	</div>
+			      	<div class="col text-end">
+			      		<button class="btn btn-dark w-50"><a class="text-light text-decoration-none" href="https://www.figma.com/proto/vOvJWSlp6Dgt0ySEk3o87K/Prototype-Website-Data-Klien-YSS?scaling=scale-down&page-id=0%3A1&node-id=2%3A2&starting-point-node-id=2%3A2">View</a></button>
+			      	</div>
+			      </div>
+			    </div>
+			  </div>
+			  <div class="card">
+			    <img src="images/card-2.jpg" class="card-img-top" alt="Vellago and Pegipegi Revamp">
+			    <div class="card-body">
+			      <h5 class="card-title">Vellago and Pegipegi Revamp &nbsp;<span class="badge bg-secondary">2022</span></h5>
+			      <p class="card-text">I revamped the home page of Pegipegi mobile app and made a home page for a new app named Vellago (as a sub product of Pegipegi for university students).</p>
+				  <div class="row align-items-center">
+			      	<div class="col">
+			      		<p class="card-text">
+				      	<small class="text-muted"><i data-feather="smartphone"></i></small>
+				      	<small class="text-muted"><i data-feather="figma"></i></small>
+				      </p>
+			      	</div>
+			      	<div class="col text-end">
+			      		<button class="btn btn-dark w-50"><a class="text-light text-decoration-none" href="https://www.figma.com/proto/A2Avdsu3jd5COcp96qOZlw/Pegipegi-Revamp?node-id=152%3A116&scaling=scale-down&page-id=6%3A60">View</a></button>
+			      	</div>
+			      </div>
+			    </div>
+			  </div>
+			  <!-- <div class="card">
+			    <img src="..." class="card-img-top" alt="...">
+			    <div class="card-body">
+			      <h5 class="card-title">Card title</h5>
+			      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+			      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+			    </div>
+			  </div> -->
+			</div>
+		</div>
+
+		<!-- Tabs -->
+		<div class="row mt-1 mb-3">
+			<nav>
+			  <div class="nav nav-tabs" id="nav-tab" role="tablist">
+			    <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Cushy</button>
+			    <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">KAMI</button>
+			    <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">SCM App</button>
+			    <!-- <button class="nav-link" id="nav-disabled-tab" data-bs-toggle="tab" data-bs-target="#nav-disabled" type="button" role="tab" aria-controls="nav-disabled" aria-selected="false" disabled>Disabled</button> -->
+			  </div>
+			</nav>
+
+			<div class="tab-content" id="nav-tabContent">
+				<div class="tab-pane fade show active mt-4 mb-4" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
+				  	<div class="row align-items-center">
+				  		<div class="col-4">
+				  			<img class="w-100 shadow bg-body rounded" src="images/card-3.png">
+				  		</div>
+				  		<div class="col-8">
+					  		<div class="row align-items-center mb-3">
+					  			<p class="card-text">
+						      	<small class="text-muted"><i data-feather="layout"></i></small>
+						      	<small class="text-muted"><img style="width: 1.5em;" src="images/xd-icon.png"></small>
+						      	&nbsp;<span class="badge bg-secondary">2021</span>
+					    		</p>
+					  		</div>
+					  		<p>Cushy is an e-Commerce website. The website can be used to sell FMCG products. It was created as a team project for E-Business lecture.</p>
+						    <button class="btn btn-dark w-25"><a class="text-light text-decoration-none" href="https://xd.adobe.com/view/86c21856-6f91-44cf-9acc-bc380b641769-d391/?fullscreen">View</a></button>
+				  		</div>
+				  	</div>
+			  	</div>
+
+				<div class="tab-pane fade mt-4 mb-4" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="1">
+					<div class="row align-items-center">
+				  		<div class="col-4">
+				  			<img class="w-100 shadow bg-body rounded" src="images/card-4.png">
+				  		</div>
+				  		<div class="col-8">
+					  		<div class="row align-items-center mb-3">
+					  			<p class="card-text">
+						      	<small class="text-muted"><i data-feather="smartphone"></i></small>
+						      	<small class="text-muted"><i data-feather="figma"></i></small>
+						      	&nbsp;<span class="badge bg-secondary">2021</span>
+					    		</p>
+					  		</div>
+					  		<p>KAMI is a mobile application to contact goverment and emergency numbers. It was created as a team project for IS Project Management lecture.</p>
+						    <button class="btn btn-dark w-25"><a class="text-light text-decoration-none" href="https://www.figma.com/proto/y44Jr36IudYaqyfyJmRTRZ/kami?node-id=1%3A6&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A6">View</a></button>
+				  		</div>
+				  	</div>
+				</div>
+
+				<div class="tab-pane fade mt-4 mb-4" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab" tabindex="2">
+					<div class="row align-items-center">
+				  		<div class="col-4">
+				  			<img class="w-100 shadow bg-body rounded" src="images/card-5.png">
+				  		</div>
+				  		<div class="col-8">
+					  		<div class="row align-items-center mb-3">
+					  			<p class="card-text">
+						      	<small class="text-muted"><i data-feather="smartphone"></i></small>
+						      	<small class="text-muted"><img style="width: 1.5em;" src="images/xd-icon.png"></small>
+						      	&nbsp;<span class="badge bg-secondary">2021</span>
+					    		</p>
+					  		</div>
+					  		<p>PT Indofood SCM App is a mobile application to organize noodle production supply chain. It was a team project for Supply Chain Management lecture.</p>
+						    <button class="btn btn-dark w-25"><a class="text-light text-decoration-none" href="https://xd.adobe.com/view/d0cfd213-b43e-431f-9224-327ef78b4045-859c/?fullscreen">View</a></button>
+				  		</div>
+				  	</div>
+				</div>
+
+				<div class="tab-pane fade" id="nav-disabled" role="tabpanel" aria-labelledby="nav-disabled-tab" tabindex="3">...</div>
+			</div>
+		</div>
+
+		<div class="row mt-5 mb-2 text-center text-muted ">
+			<p>
+				<i data-feather="feather"></i>
+				<i data-feather="feather"></i>
+				<i data-feather="feather"></i>
+			</p>
+		</div>
+
+		<!-- Website section -->
+		<div class="row mt-2 mb-3" id="scrollspyHeading2">
+			<figure class="figure text-center">
+			  <img src="images/web-1.png" class="figure-img img-fluid w-50 rounded shadow bg-body rounded" alt="COVID-19 education website">
+			  <figcaption class="figure-caption text-center"><i class="feather-align-center" data-feather="code"></i> HTML, CSS, JavaScript</figcaption>
+			</figure>
+			<p class="mt-2">COVID-19 education website is a website to find and discuss new information and update about COVID-19 in Indonesia. It was a team project for Web Design and Development lecture.</p>
+			<div class="row text-center align-items-center mb-3">
+	  			<p>
+		      	<small class="text-muted"><i class="feather-align-center" data-feather="globe"></i></small>
+		      	<small class="text-muted"><i class="feather-align-center" data-feather="server"></i></small>
+		      	&nbsp;<span class="badge bg-secondary">2020</span>
+	    		</p>
+	    		<div class="text-center">
+	    			<button class="btn btn-dark w-25"><a class="text-light text-decoration-none" href="https://angelina-ss.github.io/covid19-education/">View</a></button>
+	    		</div>
+	  		</div>
+			</div>
+
+		<div class="row mt-5 mb-2 text-center text-muted">
+			<p>
+				<i data-feather="feather"></i>
+				<i data-feather="feather"></i>
+				<i data-feather="feather"></i>
+			</p>
+		</div>
+
+		<!-- Other section -->
+		<div class="row mt-2 mb-5" id="scrollspyHeading3">
+			  <div class="row row-cols-2 px-3 pb-3">
+			    <div class="col">
+			    	<img class="img-fluid shadow-lg bg-body rounded" src="images/other-1.jpg">
+			    </div>
+			    <div class="col">
+			    	<img class="img-fluid shadow-lg bg-body rounded" src="images/other-2.jpg">
+			    </div>
+			  </div>
+  			  <div class="row row-cols-3 p-3">
+			    <div class="col">
+			    	<img class="img-fluid shadow-lg bg-body rounded" src="images/other-3.jpg">
+			    </div>
+			    <div class="col">
+			    	<img class="img-fluid shadow-lg bg-body rounded" src="images/other-4.jpg">
+			    </div>
+			    <div class="col">
+			    	<img class="img-fluid shadow-lg bg-body rounded" src="images/other-5.jpg">
+			    </div>
+			  </div>
+		</div>
+
+	</div>
+
+	<footer>
+		<div class="text-center py-5 bg-light shadow-lg bg-body">
+			<p>&copy; 2022</p>
+			<p><a class="text-dark text-decoration-none" href="javascript:getRequestDomain();"><i data-feather="eye"></i></a></p>
+			<small>
+				Powered by 
+				<a class="text-dark text-decoration-none" href="https://getbootstrap.com/" data-bs-placement="right" data-bs-toggle="tooltip" data-bs-title="Bootstrap v5.2">Bootstrap</a>
+				 & 
+				<a class="text-dark text-decoration-none" href="https://feathericons.com/" data-bs-placement="right" data-bs-toggle="tooltip" data-bs-title="Feather – Simply beautiful open source icons">Feather</a>
+			</small>
+		</div>		
+
+		<!-- JavaScript Bundle with Popper -->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+		<!-- LinkedIn badge -->
+		<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
+		<!-- Feather Icons -->
+		<!-- <script src="https://unpkg.com/feather-icons"></script> -->
+		<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+		<!-- Feather Icons script -->
+		<script>
+		  feather.replace()
+		</script>
+		<!-- Get request domain -->
+		<script type="text/javascript">
+			function getRequestDomain() {
+			  window.location.origin;
+			}
+		</script>
+		<!-- Modal script -->
+		<script type="text/javascript">
+			const myModal = new bootstrap.Modal(document.getElementById('myModal'), options)
+			// or
+			// const myModalAlternative = new bootstrap.Modal('#myModal', options)
+		</script>
+		<!-- Tooltip script -->
+		<script type="text/javascript">
+			const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+			const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+		</script>
+	</footer>
+</body>
+</html>
